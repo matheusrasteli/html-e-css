@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+
+        }
+        header {
+            display: inline-flex;
+            height: 50px;
+            width: 100%;
+            background-color: aqua;
+            margin: 0px;
+            box-shadow: 2px 2px 2px 1px  rgba(6, 20, 20, 0.295);
+            border-radius: 2px;
+        }
+        .logo:hover {
+            background-color: rgb(255, 0, 0);
+            border-radius: 100%;
+            cursor: pointer;
+        }
+        nav {
+            margin: 0px 0px 0px 65%;
+        } 
+        nav > a > button {
+            text-align: center;
+            background-color: #00ffff00;
+            height: 40px;
+            width: 110px;
+            margin: 10px 2px 0px 10px;
+            border: none;
+            border-radius: 5px;
+
+        }
+
+        nav > a > button:hover {
+            cursor: pointer;
+            text-transform: uppercase;
+            text-decoration:  3px underline;
+            
+        }
+        main {
+            background-color: #deb887;
+            margin: 0px 0px 0px 0px;
+            padding: 3px;
+            text-align: center;
+        }
+        main > section {
+            border-radius: 0px 20px;
+            box-shadow: 5px 5px 10px rgba(25, 25, 121, 0.685);
+            height: 500px;
+            margin: 5px;
+            text-align: justify;
+            background-color: rgba(0, 0, 255, 0.747);
+        }
+        main > section > article {
+            background-color: antiquewhite;
+            text-decoration: underline;
+        }
+        footer {
+          background-color: black;
+          color: white;
+          margin: 0px;
+          padding: 2px;
+          text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="youtubeicone.png" alt="Logo">
+        <nav>
+            <a href="https://www.youtube.com/watch?v=JPMm-jyKOaM&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=28" target="_blank" rel="external"><button>Início</button></a>
+            <a href="link" target="_blank"><button>Projetos</button></a>
+            <a href="link" target="_blank"><button>Tecnologias</button></a>
+        </nav>
+    </header>
+    <main>
+        <h1>Noticias no Brasil</h1>
+        <section>
+            <h2>Ordem e Progresso</h2>
+            <article>
+                <p> Hoje no brasil vimos muitas manifestações</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h3>Direction: Matheus Rasteli</h3>
+
+    </footer>
+</body>
+</html>

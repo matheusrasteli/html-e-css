@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: darkblue;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+h2 {
+    color: darkred;
+}
+button {
+    color: blue;
+    border-radius: 100px;
+    border-bottom: 0px;
+    text-align: center;
+    border-width: 2px;
+}

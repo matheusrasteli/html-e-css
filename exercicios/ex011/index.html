@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTml 5</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>body{background-color: rgb(167, 218, 218);}</style>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir o site em dispositivos diferentes ou diminua o tamano do navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="Imagens/foto-m.png" type="Image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Rproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML 5</p>
+    <audio controls>
+        <source src="midia/musica.hungria.mp3.mp3" type="audio/mpeg">
+    </audio>
+    <p>Se não reproduzir o áudio você pode ouvir em outra pagina clicando <a href="midia/musica.hungria.mp3.mp3" target="_blank"
+        rel="externo">a qui</a></p>
+    <p>Ou fazer o Download clicando <a href="midia/musica.hungria.mp3.zip.zip" download="hungria.zip"
+        type="audio/zip">a qui</a></p>
+        <p>reproduzindo vídeos</p>
+        <video controls>
+            <source src="midia/Video2.Yt.Mp4.mp4" type="video/mp4">
+        </video>    
+    
+</body>
+</html>
