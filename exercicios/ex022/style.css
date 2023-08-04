@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url('imagem/wallpaper001.jpg');
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+
+}
+header {
+    background: #ffebcd url('imagem/58665571-horizontal-coffee-design-with-coffee-beans-background-cups-of-coffee-and-calligraphy-quote-it-is.webp') right bottom no-repeat fixed;
+    background-size: cover;
+    
+    margin: -25px -10px 0px -10px;
+    padding: 0px;
+    height: 250px;
+    box-shadow: 10px 5px 3px black;
+}
+header h1{
+    color: #ac7b43;
+    text-align: center;
+    text-justify: auto;
+    margin: 25px;
+    padding-top: 150px;
+}
+nav {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.418);
+    background-color: #ffebcd;
+    margin: 0px -10px 0px -10px;
+    max-width: 2000px; 
+    min-width: 320px;
+}
+nav ul {
+   display: inline-flex;
+   margin: 10px;
+   padding: 0px;
+    
+}
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 0px;
+}
+nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #ac7b43;
+    padding: 10px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: #ac7b43;
+    transition-duration: .5s;
+    color: #ffebcd;
+}
+main {
+    background-color: rgb(255, 255, 255);
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 10px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.466);
+    border-radius: 0px 0px 10px 10px;
+}
+footer{
+    background-color: #ffebcd;
+    height: 30px;
+    margin: 30px -10px 0px -10px;
+    text-align: center;
+}
+footer h4{
+    font-size: 14px;
+    padding-top: 8px;
+}
