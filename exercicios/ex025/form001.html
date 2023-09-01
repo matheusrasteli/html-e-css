@@ -42,6 +42,7 @@
         .botao{
             background-color: #ffffff25;
             padding: 10px;
+            border: none;
             font-size: upercase 18px;
             margin-top: 20px;
             margin-left: 50px;
@@ -50,15 +51,30 @@
             width: 80px;
             align-items: center;
             text-align: center;
+            box-shadow: 1px 1px 5px #0000008f;
             
         }
-        input {
+        .hinp {
+            color: white;
             border-radius: 10px;
-            border: 0px solid black;
-            height: 20px;
+            border: none;
+            height: 15px;
             padding: 7px;
             background-color: #ffffff25;
+            margin-top: 10px;
+            box-shadow: 1px 1px 5px #0000008f;
 
+        }
+        .hinp:hover{
+            transform: translate(1%, 1%);
+            height: 20px;
+            border: 1px solid black;
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.473);
+        }
+        .botao:hover{
+            transform: translate(1%, 1%);
+            border: 1px solid black;
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.473);
         }
        
         
@@ -68,12 +84,14 @@
 <body>
     <h1>Meu primeiro formulario</h1>
     <div id="loguin">
-        <form action="" method="get">
-            <p class="palavras">Loguin:</p>
-            <input type="text" name="nome" id="log">
-            <p class="palavras">Senha:</p>
-            <input type="password" name="senha" id=""> 
-            <p><input type="submit" value="entrar" class="botao"></p>
+        <form action="" method="post">
+            <p class="palavras"><label for="inome">Loguin:</label></p>
+            <input class="hinp" type="text" name="nome" id="inome" required maxlength="20"
+            minlength="10" placeholder="digite o usuário">
+            <p class="palavras"><label for="isenha">Senha:</label></p>
+            <input class="hinp" type="password" name="senha" id="isenha" required maxlength="20"
+            minlength="10" placeholder="digite a senha"> 
+            <p><input type="submit" value="ENTRAR" class="botao"></p>
         </form>
        
     </div>
