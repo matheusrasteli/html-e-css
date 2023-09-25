@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* aparelho em pé*/
+body {
+    background-color: blueviolet;
+    background: url(../imagens/cev-landscape.jpg) center center no-repeat fixed;
+    background-size: contain;
+}

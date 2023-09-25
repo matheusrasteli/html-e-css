@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* Aparelho deitado */
+
+body {
+    background-color: aqua;
+    background: url(../imagens/cev-portrait.jpg) center center no-repeat fixed;
+    background-size: contain;
+}
