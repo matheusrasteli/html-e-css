@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/*todas as demais midias*/
+
+@media print {
+    body{
+        background: url(../imagens/icon-print.png) center center no-repeat fixed;
+    }
+
+    
+}
